@@ -1,10 +1,10 @@
 # Báo Cáo Thực Hành: Kiểm Thử Tự Động Với Selenium (Automation Testing)
 
-> **Họ tên sinh viên:** Nguyễn Văn Chiến  
-> **Mã sinh viên:** 23010515  
-> **Môn học:** Đánh giá và kiểm định chất lượng phần mềm  
-> **Nền tảng kiểm thử (Target):** [SauceDemo E-commerce](https://www.saucedemo.com/)  
-> **Ngôn ngữ & Framework:** Python 3, Pytest, Selenium WebDriver  
+**Họ tên sinh viên:** Nguyễn Văn Chiến  
+**Mã sinh viên:** 23010515  
+**Môn học:** Đánh giá và kiểm định chất lượng phần mềm  
+**Nền tảng kiểm thử (Target):** [SauceDemo E-commerce](https://www.saucedemo.com/)  
+**Ngôn ngữ & Framework:** Python 3, Pytest, Selenium WebDriver  
 
 Bài báo cáo này trình bày kết quả thực hành xây dựng **03 kịch bản kiểm thử tự động (Test Cases)** xoay quanh vòng đời mua sắm thực tế của người dùng trên website SauceDemo.
 
