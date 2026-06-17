@@ -111,3 +111,11 @@ python -m pytest tests/test_saucedemo.py -v -s
 > *Lưu ý: Code đã được cấu hình tự động tải Chrome Webdriver và thêm `time.sleep(1)` để giả lập thao tác của con người một cách trực quan, mượt mà nhất trên màn hình.*
 
 ---
+
+## Tổng Kết
+
+Thông qua bài thực hành này, em đã làm quen và ứng dụng thành công công cụ kiểm thử tự động **Selenium WebDriver** kết hợp với **Pytest** trong môi trường Python.
+
+Quá trình xây dựng 03 Test Case cốt lõi bao trọn toàn bộ luồng thao tác thực tế của người dùng trên nền tảng thương mại điện tử SauceDemo (từ lúc đăng nhập, tương tác với bộ lọc, thêm sản phẩm vào giỏ, điền thông tin giao hàng cho đến khi thanh toán thành công và đăng xuất). Hệ thống kiểm thử đã chạy ổn định, tự động nhận diện đúng các phần tử trên trang (Elements) và thực hiện các thao tác giả lập (Click, Send Keys) chính xác tuyệt đối mà không gặp lỗi.
+
+Kết quả thu được là 100% các Test Case đều Passed, giúp khẳng định hiệu quả của kiểm thử tự động trong việc Đánh giá và kiểm định chất lượng phần mềm, giúp tiết kiệm thời gian, nhân lực và tăng tính chính xác trong quá trình kiểm tra hồi quy (Regression Testing).
