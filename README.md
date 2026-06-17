@@ -23,7 +23,7 @@ Bài báo cáo này trình bày kết quả thực hành xây dựng **03 kịch
 
 ---
 
-## 📸 Chi Tiết Từng Bước (Step-by-Step Execution)
+## Chi Tiết Từng Bước (Step-by-Step Execution)
 
 ### 1. Test Case 1: Đăng nhập và Sắp xếp danh sách (Login & Sort)
 - **Mục tiêu:** Xác minh tính năng xác thực người dùng và khả năng tương tác với bộ lọc.
