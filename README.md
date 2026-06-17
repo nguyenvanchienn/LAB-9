@@ -1,4 +1,4 @@
-# 🚀 Báo Cáo Thực Hành: Kiểm Thử Tự Động Với Selenium (Automation Testing)
+# Báo Cáo Thực Hành: Kiểm Thử Tự Động Với Selenium (Automation Testing)
 
 ![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -13,24 +13,24 @@ Bài báo cáo này trình bày kết quả thực hành xây dựng **03 kịch
 
 ---
 
-## 🎯 Tổng Quan Kịch Bản (Test Scenarios)
+## Tổng Quan Kịch Bản (Test Scenarios)
 
 | # | Tên Test Case | Chức năng kiểm thử | Kết quả |
 |---|---|---|---|
-| 1 | **Login & Sort** | Đăng nhập hệ thống, thao tác lọc/sắp xếp danh sách sản phẩm. | ✅ Pass |
-| 2 | **Add to Cart & Checkout** | Thêm sản phẩm vào giỏ, nhập thông tin giao hàng. | ✅ Pass |
-| 3 | **Complete & Logout** | Xác nhận hóa đơn, hoàn tất thanh toán và đăng xuất an toàn. | ✅ Pass |
+| 1 | **Login & Sort** | Đăng nhập hệ thống, thao tác lọc/sắp xếp danh sách sản phẩm. | Pass |
+| 2 | **Add to Cart & Checkout** | Thêm sản phẩm vào giỏ, nhập thông tin giao hàng. | Pass |
+| 3 | **Complete & Logout** | Xác nhận hóa đơn, hoàn tất thanh toán và đăng xuất an toàn. | Pass |
 
 ---
 
 ## 📸 Chi Tiết Từng Bước (Step-by-Step Execution)
 
-### 🧪 1. Test Case 1: Đăng nhập và Sắp xếp danh sách (Login & Sort)
+### 1. Test Case 1: Đăng nhập và Sắp xếp danh sách (Login & Sort)
 - **Mục tiêu:** Xác minh tính năng xác thực người dùng và khả năng tương tác với bộ lọc.
 - **Tài khoản test:** `standard_user` / `secret_sauce`
 
 <details open>
-<summary><b>✨ Nhấn vào để thu gọn/mở rộng hình ảnh</b></summary>
+<summary><b>Nhấn vào để thu gọn/mở rộng hình ảnh</b></summary>
 
 1. **Mở trang chủ đăng nhập (Trống):**<br>
    <img src="image/img1.png" width="800">
@@ -50,11 +50,11 @@ Bài báo cáo này trình bày kết quả thực hành xây dựng **03 kịch
 
 <br>
 
-### 🛒 2. Test Case 2: Thêm giỏ hàng & Nhập thông tin (Add to Cart & Checkout)
+### 2. Test Case 2: Thêm giỏ hàng & Nhập thông tin (Add to Cart & Checkout)
 - **Mục tiêu:** Đảm bảo luồng giỏ hàng và form nhập thông tin hoạt động trơn tru.
 
 <details open>
-<summary><b>✨ Nhấn vào để thu gọn/mở rộng hình ảnh</b></summary>
+<summary><b>Nhấn vào để thu gọn/mở rộng hình ảnh</b></summary>
 
 1. **Bấm Add to cart (Nút đỏ "Remove" hiện lên, Giỏ hàng có số 1):**<br>
    <img src="image/img6.png" width="800">
@@ -74,11 +74,11 @@ Bài báo cáo này trình bày kết quả thực hành xây dựng **03 kịch
 
 <br>
 
-### 🏁 3. Test Case 3: Xác nhận đơn hàng & Đăng xuất (Complete & Logout)
+### 3. Test Case 3: Xác nhận đơn hàng & Đăng xuất (Complete & Logout)
 - **Mục tiêu:** Đảm bảo thanh toán thành công và hủy phiên làm việc.
 
 <details open>
-<summary><b>✨ Nhấn vào để thu gọn/mở rộng hình ảnh</b></summary>
+<summary><b>Nhấn vào để thu gọn/mở rộng hình ảnh</b></summary>
 
 1. **Chuyển sang trang Checkout Overview xác nhận đơn giá cuối:**<br>
    <img src="image/img11.png" width="800">
@@ -98,7 +98,7 @@ Bài báo cáo này trình bày kết quả thực hành xây dựng **03 kịch
 
 ---
 
-## 🛠️ Hướng Dẫn Cài Đặt & Chạy (How to run)
+## Hướng Dẫn Cài Đặt & Chạy (How to run)
 
 Để chạy lại toàn bộ kịch bản kiểm thử trên máy của bạn, hãy làm theo các bước sau:
 
@@ -111,6 +111,6 @@ pip install -r requirements.txt
 ```bash
 python -m pytest tests/test_saucedemo.py -v -s
 ```
-> 💡 *Lưu ý: Code đã được cấu hình tự động tải Chrome Webdriver và thêm `time.sleep(1)` để giả lập thao tác của con người một cách trực quan, mượt mà nhất trên màn hình.*
+> *Lưu ý: Code đã được cấu hình tự động tải Chrome Webdriver và thêm `time.sleep(1)` để giả lập thao tác của con người một cách trực quan, mượt mà nhất trên màn hình.*
 
 ---
