@@ -1,14 +1,23 @@
+# pyrefly: ignore [missing-import]
 from selenium import webdriver
+# pyrefly: ignore [missing-import]
 from selenium.webdriver.common.by import By
+# pyrefly: ignore [missing-import]
+from selenium.webdriver.chrome.service import Service
+# pyrefly: ignore [missing-import]
+from webdriver_manager.chrome import ChromeDriverManager
+# pyrefly: ignore [missing-import]
 import pytest
+# pyrefly: ignore [missing-import]
 import time
 
 @pytest.fixture
 def driver():
-    # Khởi tạo browser
+    # Khởi tạo browser với webdriver_manager để tránh lỗi Selenium Manager trên Python 3.14
     options = webdriver.ChromeOptions()
     # options.add_argument('--headless') # Bỏ comment nếu muốn chạy ngầm
-    driver = webdriver.Chrome(options=options)
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
     driver.implicitly_wait(10)
     driver.maximize_window()
     yield driver
