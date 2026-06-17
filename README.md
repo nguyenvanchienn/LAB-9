@@ -1,11 +1,8 @@
 # Báo Cáo Thực Hành: Kiểm Thử Tự Động Với Selenium (Automation Testing)
 
-![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Status](https://img.shields.io/badge/Status-100%25_Passed-brightgreen?style=for-the-badge)
-
-> **Môn học:** Kiểm thử phần mềm  
+> **Họ tên sinh viên:** Nguyễn Văn Chiến  
+> **Mã sinh viên:** 23010515  
+> **Môn học:** Đánh giá và kiểm định chất lượng phần mềm  
 > **Nền tảng kiểm thử (Target):** [SauceDemo E-commerce](https://www.saucedemo.com/)  
 > **Ngôn ngữ & Framework:** Python 3, Pytest, Selenium WebDriver  
 
